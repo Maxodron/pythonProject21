@@ -7,7 +7,7 @@ try:
             hod_p=n
             hod_c=n
             while n-hod_p<1:
-                hod_p=input('Какое колиmkrf,чество камней вы хотите убрать 1, 2 или 3?: ')
+                hod_p=input('Какое количество камней вы хотите убрать 1, 2 или 3?: ')
                 if hod_p.isdigit():
                     hod_p=int(hod_p)
                     if hod_p not in range(1,4):
